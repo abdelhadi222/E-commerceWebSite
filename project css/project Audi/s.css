@@ -1,0 +1,275 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header{
+    width: 100%;
+    height: 500px;
+    background-image: url('pp/p.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+
+}
+.conti{
+    width: 1000px;
+    height: 150px;
+    margin:  0 auto;
+    display: flex;
+    gap: 450PX;
+
+}
+.conti ul li a{
+    text-decoration: none;
+    color: white;
+}
+.conti ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 20PX;
+    font-weight: 300;
+    margin-top: 30PX;
+}
+.conti img{
+    width: 60PX;
+    height: 60PX;
+    border-radius: 50%;
+    margin-top: 10PX;
+}
+
+header h1{
+    color: white;
+    width: 35%;
+    margin-left: 59PX;
+    font-size: 50px;
+    margin-bottom: 70PX;
+
+}
+header{
+    position:relative;
+}
+header p{
+    color: white;
+    margin-left: 50PX;
+    font-weight: 200;
+    
+}
+
+header p::before{
+ content: "";
+ position: absolute;
+ bottom: 91PX;
+ left: 0100PX;
+
+ width: 10PX;
+ height: 10PX;
+ border: 2PX solid white ;
+ border-right:none ;
+ border-bottom: none;
+transform:  rotate(-135deg);
+}
+header p::after{
+    content: "";
+    position: absolute;
+    bottom: 86PX;
+    left: 0100PX;
+   
+    width: 10PX;
+    height: 10PX;
+    border: 2PX solid white ;
+    border-right:none ;
+    border-bottom: none;
+   transform:  rotate(-135deg);
+
+   }
+   .se1{
+    text-align: center;
+    display: flex;
+    gap: 90PX;
+    padding-right: 120PX;
+    padding-left: 120px;
+    margin-top: 100PX;
+    margin-bottom: 70PX;
+    
+   }
+   .se1 div{
+    width: calc(80%/3);
+   }
+   .chi{
+    display: flex;
+    justify-content: center;
+   }
+   .chi div{
+    width: calc(90%/4);
+}
+   .chi img{
+    width: 100%;
+    height: 50%;
+   }
+    .se2{
+        position: relative;
+        margin-top: 150PX;
+    }
+   .se2 h1{
+    margin-bottom: 30PX;
+    margin-left: 60PX;
+   }
+   .se2 h1::after{
+    content: "";
+    position: absolute;
+    top: 30PX;
+    left: 60PX;
+    width: 40PX;
+    height: 5px;
+    background-color: green;
+   
+    
+   }
+   
+   .chi .chi2{
+    display: flex;
+    gap: 120PX;
+   }
+   .chi2 .p {
+    background-color:green;
+    padding: 7px;
+    width: 100%;
+
+   }
+   .pp {
+    color: green;
+    margin-top: 6PX;
+    font-size: 13PX;
+   }
+  button{
+    width:100px;
+    background-color: rgb(1, 114, 1,0.5);
+    color: white;
+    border-radius: 26px;
+    border: none;
+    padding: 4px;
+    height: 40PX;
+  }
+  .chi2 {
+    position: relative;
+z-index: 9;
+}
+.chi2 div {z-index: 9;
+    padding-left: 8PX;
+padding-top: 3PX;}
+  .chi2::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -4PX;
+    background-color: rgb(182, 202, 147,0.5);
+    width: 263PX;
+    height: 50px;
+    z-index: 5;
+  }
+
+  .va{
+    display: flex;
+    gap: 30px;
+    padding-left: 100PX;
+    padding-right: 100PX;
+    margin-top: 95px;
+  }
+  .va div{
+    width: 47%;
+  }
+  .ala img{
+    width: 100%;
+height: 260PX;
+}
+
+ .e img{
+    width: 80%;
+
+}
+.V2{position: relative;}
+.V2{display: flex;
+gap: 200PX;}
+.V22{display: flex;
+    gap: 300PX;}
+.V2 div {
+    z-index: 8;
+}
+.e .V2::after,
+.V22::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -4PX;
+    background-color: rgb(182, 202, 147,0.7);
+    width: 363PX;
+    height: 50px;
+    z-index: 5;
+    border-radius: 3px;
+
+
+}
+.f{height: 900PX;
+width: 100%;}
+
+.ali {  display: flex;
+gap: 50PX;
+padding-left: 100PX;
+padding-right: 30PX;
+height: 300PX;
+width: 100%;
+}
+.g img{
+    width: 100%;
+    
+
+}
+.divv {
+    width: 50%;
+    background-color: bisque;
+}
+.divv img{
+    width: 100%;
+    height: 50%;
+}
+
+.ali .g{
+    width: 40%;
+}
+.g{
+    background:red;
+}
+.d1{
+    width: 100%;
+    height: 50%;
+    background-color: black;
+}
+.d1 img{
+    width: 100%;
+}
+
+
+.se3 h1{
+    font-size: 50PX;
+    padding-left: 100PX;
+    margin-bottom: 30PX;
+
+}
+.ali .divv::before,
+.ali .g::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 7px;
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 100%;
+    height: 90px;
+    z-index: 5;
+    border-radius: 3px;
+
+}

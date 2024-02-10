@@ -1,0 +1,114 @@
+header{
+
+    width: 100%;
+    height: 50px;
+    background-color: rgb(86, 86, 86);
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.reda{
+    width: 10px;
+    height: 10px;
+    background: red;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: absolute;
+    right: -6px;
+    top: -5px;
+}
+.redaa{
+    width: 13px;
+    height: 13px;
+    background: red;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: absolute;
+    right: 116px;
+    top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8Px;
+    font-size: 14px;
+}
+.IconNavBar {
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+
+
+}
+.ToggelCarte{
+ position: absolute;
+ right: 25px;
+top: 55px;
+ border-radius: 10px;
+ padding: 10px;
+ height: fit-content;
+ width: 30%;
+ z-index: 2000;
+ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.ToggelCarte::after{
+    content:'';
+    position: absolute;
+    right: 18%;
+    top: -25px;
+    width: 0;
+    height: 0;
+    border-color: transparent transparent rgb(255, 255, 255) transparent;
+    border-width: 13px;
+    border-style: solid;
+    z-index: 2000;
+}
+.logout {
+    width: fit-content;
+    background-color: rgba(2, 106, 2, 0.518);
+    border-radius: 10px;
+    height:fit-content;
+    color: rgb(1, 81, 33);
+    position: absolute;
+    bottom: -1000%;
+    right: 1%;
+    margin-top: 400px;
+    padding: 10px;
+}
+.TitelSettings{
+   text-align: center;
+   margin: 30px auto;
+    font-weight: bold;
+    font-size: 30px;
+}
+.BoxCat{
+    width: fit-content;
+    padding: 4px;
+    background-color: rgb(94, 94, 94);
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+    height: 30px;
+}
+.AddCat{
+     width: 20px;
+     height: 20px;
+     background-color: rgb(8, 8, 8);
+     color: white;
+     display: flex;
+     justify-content: center;
+     border: none;
+     align-items: center;
+     border-radius: 6px;
+
+}
+.ValideStore{
+    padding: 5px;
+    background-color: black;
+    color: wihte;
+    border-radius: 10px;
+    border: none;
+    width: 20%;
+    margin: 0 auto;
+    cursor: pointer;
+}

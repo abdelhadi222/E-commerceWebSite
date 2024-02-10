@@ -1,0 +1,396 @@
+main{
+    display: flex;
+     gap: 20px;
+    width: 100%;
+    padding: 10px;
+    height: 440Px;
+    /* height: fit-content; */
+    background-color: rgb(255, 255, 255);
+
+}
+main .ddiv {
+    width: 40%;
+    background-color: rgb(194, 192, 192);
+    border-radius: 10px;
+}
+main .ddivTwo {
+    width:  60%;
+    background-color: rgb(194, 192, 192);
+    border-radius: 10px;
+
+
+}
+.OneFroSettings{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 190px;
+}
+.BB{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+}
+.inpu,
+.inpuEmail{
+    width: 70%;
+    height: 30px;
+    border: none;
+    background-color: white;
+    margin-right: 40px;
+    padding: 8px;
+    border-radius: 8px;
+    
+}
+.Vlide {
+     width: 100%;
+     background-color: green;
+     border-radius: 3px;
+     color: white;
+     height: fit-content;
+     padding: 2px;
+     cursor: pointer;
+
+}
+.ColorInput{
+    border: none;
+    width: 30PX;
+    height: 30PX;
+    border-radius: 50%;
+    align-self: center;
+
+}
+.ColorInput1{
+    border: none;
+    width: 30PX;
+    height: 30PX;
+    border-radius: 50%;
+    align-self: center;
+
+    margin-top: -4px;
+}
+.whitePaSSword{
+    width: 65%;
+    background-color: white;
+    padding: 5px;
+    margin-left: 15px;
+    border-radius: 10px;
+
+
+}
+.anu{
+     width: 100%;
+     background-color: rgb(211, 0, 0);
+     border-radius: 3px;
+     color: white;
+     height: fit-content;
+     padding: 2px;
+      cursor: pointer;
+}
+.SettingsColor{
+    width: 150px;
+    height: fit-content;
+    display: flex;gap: 15px;
+    padding: 4px;
+    background-color: white;
+    margin-bottom: 3Px;
+    border-radius: 10px;
+    color: rgb(53, 51, 51);
+    font-weight: bolder;
+    display: flex;
+    gap: 10px;
+}
+.BoxWhite {
+     background-color: white;
+     width: 50%;
+     height: 220px;
+     position: absolute;
+     z-index: 2000;
+     border-radius: 10px;
+     left: 25%;
+}
+.BoxDkhlePaswordChange {
+    color: black;
+    text-align: center;
+}
+.BoxDkhlePaswordChange div input {
+    width: 50%;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+}
+.ButtonChangePassword{
+    padding: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+.BoxDkhlePaswordChange div input::placeholder {
+  color: white;
+}
+.BoxDkhlePaswordChange div input:focus{
+   outline: none;
+}
+.VlideImage2 ,
+.VlideImage1{
+  border: none;
+  padding: 5px;
+  border-radius: 10px;
+  width: 20%;
+  color: white;
+  cursor: pointer;
+}
+.VlideImage2 {
+  background-color: red;
+}
+.VlideImage1 {
+  background-color: green;
+}
+
+.BoxAddProIcon { 
+     width: 50px;
+     height:50px;
+     background-color: rgba(255, 255, 255, 0.705);
+     border-radius: 50%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     cursor: pointer;
+}
+.BoxAddPro {
+     width: 100%;
+     height: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: relative;
+
+}
+
+.AddCat {
+    position: absolute;
+    z-index: 2000;
+    background-color: white;
+    width:30%;
+    padding: 20px;
+    height: fit-content;
+    border-radius: 10px;
+    left: 35%;
+    top: 30%;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+
+}
+
+.BuTAddFromSet{
+    align-self: center;
+    margin-top: 5px;
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+
+.BuOfAddCatINSettings { 
+     padding: 5px;
+     width: 30%;
+     border: none;
+     border-radius: 10px;
+     color: white;
+
+}
+
+.RemoveCat{
+     position: absolute;
+     z-index: 2000;
+     background-color: white;
+     border-radius: 10px;
+     width: 30%;
+     height: 150px;
+     top: 30%;
+     left: 35%;
+     color: black;
+     padding: 5px;
+     overflow: scroll;
+     overflow-x: hidden;
+}
+.BoxOfDeletCat{
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    transition: .5s;
+    display: flex;
+    justify-content: space-between;
+
+}
+.BoxOfDeletCat:hover{
+ background-color: rgb(211, 210, 210);
+ padding-left: 20px;
+}
+
+.this{
+     position: relative;
+     
+
+}
+.this::after{
+    content: '';
+    position: absolute;
+    left: 10px;
+    top: 0px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    width: 20px;
+    z-index: 2000;
+    height: 30px;
+    /* font-size: 12px; */
+
+    
+}
+.this::before{
+    content: ' ';
+    position: absolute;
+    left: 10px;
+    bottom: 60px;
+    color: white;
+    width: 0px;
+    z-index: 2000;
+    height: 10px;
+
+    color: rgb(51, 17, 84);
+    border-color: red red transparent rgb(255, 0, 0);
+    border-width: 10Px;
+    border-style: solid;
+
+    
+}
+.pInThis{
+    transform: rotate(-90deg) translatex(-10px);
+    font-weight: 900;
+}
+.BoxAddPro{
+    margin-top: -50px;
+}
+.BoxAddPro div input {
+     width: 100%;
+     padding: 10px;
+     background-color: white;
+     border-radius: 10px;
+     margin-bottom: 16px;
+     border: none;
+
+}
+.Ls {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 20px;
+}
+.ContiOfSelect {
+    width: 100%;
+    height: 38px;
+    margin-bottom: 17px;
+    background-color: white;
+    border-radius: 10px 10px 0px 0px;
+
+}
+.ContiOfSelectt{
+  width: 40%;
+  margin-left: 35%;
+  margin-top: 50Px;
+  background-color: white;
+  padding: 10px;
+  padding-top: -4px;
+}
+
+.MeunWhite , 
+.MeunWhitee{
+     height: fit-content;
+     background-color: white;
+     border-radius:  0px 0px 10px 10px ;
+     color: black;
+     padding: 8px;
+         z-index: 2000;
+    position: relative;
+
+}
+
+/* .Slc{
+    margin-bottom: 16px;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+}
+.Slc option {
+    padding: 10px;
+} */
+
+
+.OneOfCat {
+     width: 100%;
+     padding: 9px;
+     background-color: rgb(255, 255, 255);
+     margin: 7px 0;
+     z-index: 3000;
+     transition: .5s;
+     position: relative;
+     border-radius:  10px;
+
+     /* position: absolute; */
+}
+.OneOfCat:hover{
+     background: rgb(234, 234, 234);
+     cursor: pointer;
+     padding-left: 20px;
+}
+
+.BUAddPro {
+     padding: 10px;
+     border: none;
+     color: white;
+     font-weight: bolder;
+     border-radius: 8px;
+     cursor: pointer;
+margin-top: 10px;
+}
+.BoxOfImagesAddPro {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    left: -20%;
+    top: 0;
+    z-index: 2000;
+    width: 70%;
+    flex-wrap: wrap;
+    height: fit-content;
+    padding: 30px;
+
+}
+.CtBu{
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.UplodImag{
+     padding: 15px;
+     border-radius: 10px;
+     border: none;
+     display: flex;
+     align-items: center;
+     cursor: pointer;
+}

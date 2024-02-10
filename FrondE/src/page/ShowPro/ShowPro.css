@@ -1,0 +1,25 @@
+.firstIma{
+  width: 30%;
+  height: 200px;
+  border-radius: 10px;
+  margin: 30px auto;
+  /* background-repeat: no-repeat;
+  background-size: cover; */
+}
+.OneIma{
+    width: 100px;
+    height: 100px;
+}
+.Motion{
+    overflow: hidden;
+    width: 50%;
+    margin: 30px auto;
+    cursor: grab;
+
+}
+.write{
+    width: 60%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+}

@@ -1,0 +1,85 @@
+.thiss{
+     position: relative;
+     
+
+}
+
+.New {
+    position: absolute;
+    left:15px;
+    top: 10px;
+    transform: rotate(90deg);
+    z-index: 1800;
+    font-size: 14px;
+}
+.Close{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    padding-bottom: 10px;
+    z-index: 3000;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.Notifcation{
+    width: fit-content;
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.ShowNoti {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    width: 50%;
+    height:200Px;
+    overflow-y: scroll;
+    z-index: 2000;
+    position: absolute;
+    left: 30%;
+    top: 10%;
+}
+.e {
+    height: 35px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 5Px;
+}
+.ShowNoti::-webkit-scrollbar{
+    width: 20Px;
+    background-color: rgb(220, 219, 219);
+    border-radius: 5px;
+}
+/* .ShowNoti::-webkit-scrollbar-track {
+    background-color: rgb(255, 255, 255);
+} */
+.ShowNoti::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.434);
+    border-radius: 20px;
+
+  
+}
+.thiss::before{
+    content: ' ';
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    color: white;
+    width: 0px;
+    z-index: 1800;
+    height: 10px;
+    color: rgb(51, 17, 84);
+    border-color: red red transparent rgb(255, 0, 0);
+    border-width: 10Px;
+    border-style: solid;
+    height: 25Px;
+    margin-left: 20px;
+
+
+    
+}

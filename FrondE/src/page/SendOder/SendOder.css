@@ -1,0 +1,88 @@
+.BoxComend{
+    width: 50%;
+    border-radius: 10px;
+    background-color: white;
+    height: fit-content;
+}
+
+.AllBoxComend{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50Px;
+    padding-bottom: 140px;
+
+
+}
+.BoxQu{
+    position: absolute;
+    width: 40%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    z-index: 2000;
+    left: 30%;
+    top: 20%;
+    height: fit-content;
+}
+.df div {
+    width: 20%;
+    text-align: center;
+}
+.KKL{
+    width: 20%;
+    text-align: center;
+}
+.Orde{
+    width: 30%;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.DoneComend {
+     background-color: rgb(255, 255, 255);
+     position: absolute;
+     color: black;
+     left: 30%;
+     top: 25%;
+     width: 50%;
+     border-radius: 10px;
+     height: fit-content;
+     padding: 20px;
+     z-index: 2000;
+}
+.retunOfHome{
+    
+}
+
+.orderInput{
+    margin: 0 auto;
+    width: 100%;
+    padding: 6px;
+}
+.react-tel-input .form-control{
+ width: 100% !important ; 
+ background-color:  white  !important;
+ margin: 0 !important;
+ margin-left: -75px !important;
+ padding: 6px !important;
+ padding-left: 48px !important;
+}
+.react-tel-input .flag-dropdown{
+    margin-left: -75px !important;
+}
+.BUConfiCOM {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.BUConfiCOM button {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}

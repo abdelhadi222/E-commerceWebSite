@@ -1,0 +1,119 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Box {
+    width: 60%;
+    height: fit-content;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0px 0px 6px 0px;
+    margin: 0 auto;
+}
+.top ,
+.top1 {
+    width: 40%;
+    background-color: rgb(73, 135, 183);
+    height: 40Px;
+    border-radius: 80px 20px 0 3000Px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 14Px;
+    letter-spacing: 1Px;
+    z-index: 5;
+    
+}
+.Shsdo ,
+.Shsdo1{
+    width: 42%;
+    background-color: rgba(73, 135, 183, 0.442);
+    height: 40px;
+    padding: 13px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius: 80px 20px 0 3000Px;
+    z-index: 2;
+    padding: 0px;
+}
+.Box{position: relative;}
+
+.top1{
+    width: 60%;
+    background: rgb(73, 135, 183);
+    position: absolute;
+     left: 0;
+    top: 805Px;
+    border-radius: 0px 5560PX 100px 0px;
+    display: flex;gap: 20px;
+}
+.eereere img{
+    width: 30px;
+    height: 20px;
+}
+.Shsdo1 {
+    width: 70%;
+    background: rgba(73, 135, 183, 0.442);
+    position: absolute;
+    left: 0;
+    top: 800Px;
+    height: 50Px;
+    padding-bottom: 15px;
+       border-radius: 0px 5560PX 100px 0px;
+}
+.Letter {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10Px;
+
+}
+.Letter div {
+    width: 40%;
+    padding: 10px;
+    margin-top: 50Px;
+    color: rgb(1, 72, 107);
+}
+.Letter .Ar {text-align: right;}
+.eer {margin-top: -50px;}
+.Or{
+    text-align: center;
+    padding: 10px;
+    color: rgb(1, 72, 107);
+    font-weight: 900;
+}
+.info {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(1, 72, 107);
+    padding: 10px;
+    margin-top: -40Px;
+    font-weight: bold;
+    
+}
+.Ima {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Ima img {
+    width: 1700Px;
+    height: 1700px;
+    margin-top: 820Px;
+    opacity: 0.2;
+    margin-left: -40px;
+    
+}
+.Left{
+    text-align: left;
+    width: 20%;
+}
